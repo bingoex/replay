@@ -19,7 +19,7 @@ Usage of ./replay:
   -p int
         pkg cnt per period (default 10000)
   -r string
-        remote addr to send pkg to (default "183.60.48.140:8000")
+        remote addr to send pkg to (default "113.60.48.140:80")
   -t int
         period, in ms (default 100)
 ```

@@ -25,12 +25,12 @@ var (
 )
 
 func init() {
-	flag.IntVar(&pkgNum, "c", 10, "pkg count to send")                                   //发包总数
-	flag.StringVar(&remoteAddr, "r", "183.60.48.140:8000", "remote addr to send pkg to") //发包目的地址
-	flag.StringVar(&pkgFile, "f", "req.bin", "pkg file to send")                         //发包内容，建议使用抓包工具直接将包抓下来
-	flag.IntVar(&pkgNumPerPeriod, "p", 10000, "pkg cnt per period")                      //每个周期发多少个包
-	flag.IntVar(&seqOff, "o", 2000, "seq offset")                                        // TODO seq
-	flag.IntVar(&period, "t", 100, "period, in ms")                                      //周期间隔时间
+	flag.IntVar(&pkgNum, "c", 10, "pkg count to send")                                 //发包总数
+	flag.StringVar(&remoteAddr, "r", "113.60.48.140:80", "remote addr to send pkg to") //发包目的地址
+	flag.StringVar(&pkgFile, "f", "req.bin", "pkg file to send")                       //发包内容，建议使用抓包工具直接将包抓下来
+	flag.IntVar(&pkgNumPerPeriod, "p", 10000, "pkg cnt per period")                    //每个周期发多少个包
+	flag.IntVar(&seqOff, "o", 2000, "seq offset")                                      // TODO seq
+	flag.IntVar(&period, "t", 100, "period, in ms")                                    //周期间隔时间
 	flag.Parse()
 
 	var err error
