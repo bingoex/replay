@@ -8,4 +8,18 @@ It is a packet replay tools <br>
 ## how to use it 
 ```shell
 ./replay -h 
+
+Usage of ./replay:
+  -c int
+        pkg count to send (default 10)
+  -f string
+        pkg file to send (default "req.bin")
+  -o int
+        seq offset (default 2000)
+  -p int
+        pkg cnt per period (default 10000)
+  -r string
+        remote addr to send pkg to (default "183.60.48.140:8000")
+  -t int
+        period, in ms (default 100)
 ```
