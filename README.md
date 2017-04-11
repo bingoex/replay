@@ -5,7 +5,7 @@ a send pkg tool for stress testing version 1 <br>
 - 支持seq修改 //需用户定制
 - 支持简单压测报告(耗时\发包数\失败数)
 
-## how to use it 
+## how to use 
 ```shell
 ./replay -h 
 
